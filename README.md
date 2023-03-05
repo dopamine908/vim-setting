@@ -7,6 +7,5 @@
 ## 使用方法
 
 ```
-cp vimrc ~/.vimrc
-source ~/.vimrc
+ln -s $PWD/vimrc $HOME/.vimrc
 ```
