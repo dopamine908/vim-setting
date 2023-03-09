@@ -14,3 +14,4 @@ call plug#end()
 set nu
 set relativenumber
 set clipboard=unnamed
+set incsearch 
