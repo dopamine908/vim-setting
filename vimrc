@@ -15,3 +15,4 @@ set nu
 set relativenumber
 set clipboard=unnamed
 set incsearch 
+syntax on 
