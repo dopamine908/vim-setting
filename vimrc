@@ -16,3 +16,6 @@ set relativenumber
 set clipboard=unnamed
 set incsearch 
 syntax on 
+filetype on 
+filetype indent on
+filetype plugin on
