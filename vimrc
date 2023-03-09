@@ -12,5 +12,5 @@ call plug#end()
 "--------------------------------
 
 set nu
-"set relativenumber
+set relativenumber
 set clipboard=unnamed
