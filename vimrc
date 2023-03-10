@@ -14,9 +14,9 @@ call plug#end()
 set nu
 set relativenumber
 set clipboard=unnamed
-set incsearch 
-syntax on 
-filetype on 
+set incsearch
+syntax on
+filetype on
 filetype indent on
 filetype plugin on
 
@@ -28,4 +28,5 @@ filetype plugin on
 " let mapleader = "<Space>"
 let mapleader = " "
 
-noremap <leader><Enter> o<ESC>
+noremap <leader>o moo<ESC>`o:delmarks o<Enter>
+noremap <leader>O moO<ESC>`o:delmarks o<Enter>
