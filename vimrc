@@ -15,6 +15,7 @@ set nu
 set relativenumber
 set clipboard=unnamed
 set incsearch
+set ignorecase
 syntax on
 filetype on
 filetype indent on
