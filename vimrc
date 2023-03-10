@@ -19,3 +19,13 @@ syntax on
 filetype on 
 filetype indent on
 filetype plugin on
+
+
+"--------------------------------
+" Key Mapping
+"--------------------------------
+
+" let mapleader = "<Space>"
+let mapleader = " "
+
+noremap <leader><Enter> o<ESC>
