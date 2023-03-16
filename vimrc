@@ -31,3 +31,6 @@ let mapleader = " "
 
 noremap <leader>o moo<ESC>`o:delmarks o<Enter>
 noremap <leader>O moO<ESC>`o:delmarks o<Enter>
+noremap <leader>yf [MjV]My
+noremap <leader>df [MjV]Md
+noremap <leader>vf [MjV]M
