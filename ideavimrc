@@ -14,6 +14,8 @@ if has('ide')
   map <leader>l <Action>(ReformatCode)
   "" -- Refactor This --
   map <leader>t <Action>(Refactorings.QuickListPopupAction)
+  "" -- Go to Declaration --
+  map <leader>b <Action>(GotoDeclaration)
   endif
 endif
 
