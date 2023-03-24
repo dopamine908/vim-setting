@@ -9,7 +9,9 @@ if has('ide')
   "" -- Debug --
   map <leader>d <action>(DebugClass)
   "" -- Run --
-  map <leader>r <action>(RunClass)
+  map <leader>R <action>(RunClass)
+  "" -- Rerun --
+  map <leader>r <action>(Rerun)
   "" -- Reformat Code --
   map <leader>l <Action>(ReformatCode)
   "" -- Refactor This --
