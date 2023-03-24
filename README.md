@@ -6,9 +6,17 @@
 
 ## 使用方法
 
+### In Server
 ```
 ln -s $PWD/vimrc $HOME/.vimrc
 ```
+
+### In Local
+```
+ln -s $PWD/vimrc $HOME/.vimrc
+ln -s $PWD/ideavimrc $HOME/.ideavimrc
+```
+
 
 ## 安裝套件
 

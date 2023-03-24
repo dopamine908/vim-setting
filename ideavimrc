@@ -1,0 +1,19 @@
+"" Source .vimrc
+:mapclear
+source ~/.vimrc
+nmap zso :source ~/.ideavimrc <CR>
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+if has('ide')
+  if &ide =~? 'phpstorm'
+  "" -- Debug --
+  map <leader>d <action>(DebugClass)
+  "" -- Run --
+  map <leader>r <action>(RunClass)
+  "" -- Reformat Code --
+  map <leader>l <Action>(ReformatCode)
+  "" -- Refactor This --
+  map <leader>t <Action>(Refactorings.QuickListPopupAction)
+  endif
+endif
+
