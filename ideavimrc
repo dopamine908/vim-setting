@@ -18,6 +18,10 @@ if has('ide')
   map <leader>t <Action>(Refactorings.QuickListPopupAction)
   "" -- Go to Declaration --
   map <leader>b <Action>(GotoDeclaration)
+  "" -- Goto Next Error --
+  map <leader>ne <Action>(GotoNextError)
+  "" -- Goto Predious Error --
+  map <leader>pe <Action>(GotoPreviousError)
   endif
 endif
 
