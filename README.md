@@ -25,3 +25,15 @@ ln -s $PWD/ideavimrc $HOME/.ideavimrc
 ```
 :PlugInstall
 ```
+
+## postfixTemplate
+
+[**postfixTemplate 為 jetbrains 套件**](https://github.com/xylo/intellij-postfix-templates)
+
+可以設定自己寫的後綴輔助 auto complete
+在設定介面設定來源來自 web 
+並貼上像是下方的 github 網址
+
+```
+https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTemplates
+```
