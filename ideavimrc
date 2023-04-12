@@ -21,7 +21,9 @@ if has('ide')
   "" -- Goto Next Error --
   map <leader>ne <Action>(GotoNextError)
   "" -- Goto Predious Error --
-  map <leader>pe <Action>(GotoPreviousError)
+  "map <leader>pe <Action>(GotoPreviousError)
+  "" -- Editor Paste --
+  map <leader>p <Action>(EditorPaste)
   endif
 endif
 
