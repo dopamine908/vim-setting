@@ -35,3 +35,5 @@ noremap <leader>yf [MjV]My
 noremap <leader>df [MjV]My]Mp]m
 noremap <leader>ddf [MjV]Md
 noremap <leader>vf [MjV]M
+
+inoremap jjj <ESC>
