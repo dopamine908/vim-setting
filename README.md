@@ -37,3 +37,9 @@ ln -s $PWD/ideavimrc $HOME/.ideavimrc
 ```
 https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTemplates
 ```
+
+## Todo
+
+- ctrl+O 換成編輯器的跳至上一個位置
+- ctrl+I 換成編輯器的跳至上一個位置
+- 設定 opt+上下
