@@ -6,8 +6,10 @@ nmap zso :source ~/.ideavimrc <CR>
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 if has('ide')
   if &ide =~? 'phpstorm'
+  "" -- Debug Class --
+  map <leader>D <action>(DebugClass)
   "" -- Debug --
-  map <leader>d <action>(DebugClass)
+  map <leader>d <action>(Debug)
   "" -- Run --
   map <leader>R <action>(RunClass)
   "" -- Rerun --
@@ -26,6 +28,14 @@ if has('ide')
   map <leader>p <Action>(EditorPaste)
   "" -- Editor Copy --
   map <leader>yy <Action>(EditorCopy)
+  "" -- Editor Select Word (option+up) --
+  map <A-k> <Action>(EditorSelectWord)
+  "" -- Editor Unselect Word (option+down) --
+  map <A-j> <Action>(EditorUnSelectWord)
+  "" -- Back Position (option+cmd+left) --
+  map <A-D-h> <Action>(Back)
+  "" -- Forward Position (option+cmd+right) --
+  map <A-D-l> <Action>(Forward)
   endif
 endif
 

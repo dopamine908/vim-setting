@@ -39,7 +39,5 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ```
 
 ## Todo
-
-- ctrl+O 換成編輯器的跳至上一個位置
-- ctrl+I 換成編輯器的跳至上一個位置
-- 設定 opt+上下
+- postfixTemplate
+  - User.fake => ```$testUser = User::factory()->forTest()->create();```
