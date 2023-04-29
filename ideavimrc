@@ -24,6 +24,8 @@ if has('ide')
   map <leader>Ne <Action>(GotoPreviousError)
   "" -- Editor Paste --
   map <leader>p <Action>(EditorPaste)
+  "" -- Editor Copy --
+  map <leader>yy <Action>(EditorCopy)
   endif
 endif
 
