@@ -39,5 +39,4 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ```
 
 ## Todo
-- postfixTemplate
-  - User.fake => ```$testUser = User::factory()->forTest()->create();```
+

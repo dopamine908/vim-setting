@@ -3,3 +3,6 @@
 				$FIRST$ => $SECOND$, \
 				default: $END$ \
 			};
+
+.fake : factory fake
+	ANY   →   \$test$expr$ = $expr$::factory()->forTest()->create();
