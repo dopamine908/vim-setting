@@ -33,9 +33,9 @@ if has('ide')
   "" -- Editor Unselect Word (option+down) --
   map <A-j> <Action>(EditorUnSelectWord)
   "" -- Back Position (option+cmd+left) --
-  map <A-D-h> <Action>(Back)
+  map <A-h> <Action>(Back)
   "" -- Forward Position (option+cmd+right) --
-  map <A-D-l> <Action>(Forward)
+  map <A-l> <Action>(Forward)
   endif
 endif
 
