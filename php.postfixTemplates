@@ -6,3 +6,7 @@
 
 .fake : factory fake
 	ANY   →   \$test$expr$ = $expr$::factory()->forTest()->create();
+
+
+.str : string format
+	ANY   →   \$'$expr$'
