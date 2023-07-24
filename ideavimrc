@@ -36,6 +36,8 @@ if has('ide')
   map <A-h> <Action>(Back)
   "" -- Forward Position (option+cmd+right) --
   map <A-l> <Action>(Forward)
+  "" -- AceJump Action (ctrl+;) --
+  map <leader>f <Action>(AceAction)
   endif
 endif
 
