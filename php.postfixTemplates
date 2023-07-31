@@ -9,4 +9,4 @@
 
 
 .str : string format
-	ANY   →   \$'$expr$'
+	ANY   →   \'$expr$'
