@@ -20,9 +20,13 @@ if has('ide')
   map <leader>t <Action>(Refactorings.QuickListPopupAction)
   "" -- Go to Declaration --
   map <leader>b <Action>(GotoDeclaration)
+  "" -- Go to Implementation --
+  map <leader>gi <Action>(GotoImplementation)
+  "" -- Go to Super Method --
+  map <leader>gs <Action>(GotoSuperMethod)
   "" -- Goto Next Error --
   map <leader>ne <Action>(GotoNextError)
-  "" -- Goto Predious Error --
+  "" -- Goto Previous Error --
   map <leader>Ne <Action>(GotoPreviousError)
   "" -- Editor Paste --
   map <leader>p <Action>(EditorPaste)
