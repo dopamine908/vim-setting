@@ -38,4 +38,7 @@ noremap <leader>vf [MjV]M
 noremap <leader>gf [mt(
 noremap <leader>nf ]mt(
 noremap <leader>Nf ]M[m[mt(
+noremap <leader>nv /\$<Enter>
+noremap <leader>Nv ?\$<Enter>
+
 
