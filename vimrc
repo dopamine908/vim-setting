@@ -4,8 +4,15 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-surround'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
+"--------------------------------
+" Plugins About Setting
+"--------------------------------
+let g:airline_theme='base16_monokai'
 
 "--------------------------------
 " Settings
@@ -51,5 +58,4 @@ noremap <leader>Nf ]M[m[mt(
 noremap <leader>nv /\$<Enter>
 "" 跳到上一個 變數 的位置
 noremap <leader>Nv ?\$<Enter>
-
 
