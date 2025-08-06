@@ -12,17 +12,10 @@ Plug 'itchyny/lightline.vim'
 " 各種語言的 icon
 " Plug 'ryanoasis/vim-devicons'
 
+" nerd tree
+Plug 'preservim/nerdtree'
+
 call plug#end()
-
-"--------------------------------
-" Plugins About Setting
-"--------------------------------
-
-"--- itchyny/lightline.vim ---
-"
-" 永遠顯示狀態列，無論你有一個還是多個分割視窗
-set laststatus=2
-let g:lightline = { 'colorscheme': 'one(background=dark)' }
 
 "--------------------------------
 " Settings
@@ -69,4 +62,19 @@ noremap <leader>Nf ]M[m[mt(
 noremap <leader>nv /\$<Enter>
 "" 跳到上一個 變數 的位置
 noremap <leader>Nv ?\$<Enter>
+
+"--------------------------------
+" Plugins About Setting
+"--------------------------------
+
+"--- itchyny/lightline.vim ---
+"
+" 永遠顯示狀態列，無論你有一個還是多個分割視窗
+set laststatus=2
+let g:lightline = { 'colorscheme': 'one(background=dark)' }
+
+"--- preservim/nerdtree ---
+"
+" 開關 nerd tree
+noremap <leader>1 :NERDTreeToggle<CR>
 
