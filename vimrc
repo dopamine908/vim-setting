@@ -9,6 +9,9 @@ Plug 'tpope/vim-surround'
 " 下方狀態列的美觀套件
 Plug 'itchyny/lightline.vim'
 
+" 各種語言的 icon
+" Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
 
 "--------------------------------
@@ -30,11 +33,12 @@ set relativenumber
 set clipboard=unnamed
 set incsearch
 set ignorecase
+" 將 <, > 加入配對字元清單(使用 % 可以互跳)
+set matchpairs+=<:>
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
-
 
 "--------------------------------
 " Key Mapping
