@@ -3,16 +3,23 @@
 "--------------------------------
 call plug#begin('~/.vim/plugged')
 
+" surround
 Plug 'tpope/vim-surround'
-Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+
+" 下方狀態列的美觀套件
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
 "--------------------------------
 " Plugins About Setting
 "--------------------------------
-let g:airline_theme='base16_monokai'
+
+"--- itchyny/lightline.vim ---
+"
+" 永遠顯示狀態列，無論你有一個還是多個分割視窗
+set laststatus=2
+let g:lightline = { 'colorscheme': 'one(background=dark)' }
 
 "--------------------------------
 " Settings
