@@ -9,11 +9,12 @@ Plug 'tpope/vim-surround'
 " 下方狀態列的美觀套件
 Plug 'itchyny/lightline.vim'
 
-" 各種語言的 icon
-" Plug 'ryanoasis/vim-devicons'
-
 " nerd tree
 Plug 'preservim/nerdtree'
+
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -28,7 +29,7 @@ set incsearch
 set ignorecase
 " 將 <, > 加入配對字元清單(使用 % 可以互跳)
 set matchpairs+=<:>
-syntax on
+syntax enable
 filetype on
 filetype indent on
 filetype plugin on
@@ -78,3 +79,11 @@ let g:lightline = { 'colorscheme': 'one(background=dark)' }
 " 開關 nerd tree
 noremap <leader>1 :NERDTreeToggle<CR>
 
+"--- junegunn/fzf ---
+"
+" 搜尋檔案
+noremap <leader>E :Files<CR>
+" 搜尋開啟檔案的歷史紀錄
+noremap <leader>e :History<CR>
+" 搜尋 tab
+noremap <leader>w :Windows<CR>
