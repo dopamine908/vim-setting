@@ -22,11 +22,15 @@ call plug#end()
 " Settings
 "--------------------------------
 
+" 告訴 Vim 「不要模仿舊版 vi，請使用所有 Vim 增強功能。」
+set nocompatible
 set nu
 set relativenumber
 set clipboard=unnamed
 set incsearch
 set ignorecase
+" 在 command 模式使用 tab 自動補齊的時候會有預覽區域可以看
+set wildmenu
 " 將 <, > 加入配對字元清單(使用 % 可以互跳)
 set matchpairs+=<:>
 syntax enable
