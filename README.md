@@ -39,4 +39,16 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ```
 
 ## Todo
-
+- [ ] Plug 'easymotion/vim-easymotion'
+- [ ] Plug 'bkad/CamelCaseMotion'
+- [ ] Plug 'tpope/vim-surround'
+- [ ] Plug 'tpope/vim-commentary'
+- [ ] Plug 'terryma/vim-multiple-cursors'
+- [ ] Plug 'chrisbra/matchit'
+- [ ] set clipboard+=unnamed
+- [ ] set showmode
+- [ ] set scrolloff=0
+- [ ] set visualbell
+- [ ] set t_vb=
+- [ ] set ignorecase
+- [ ] set backspace=indent,eol,start

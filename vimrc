@@ -24,7 +24,7 @@ call plug#end()
 
 " 告訴 Vim 「不要模仿舊版 vi，請使用所有 Vim 增強功能。」
 set nocompatible
-set nu
+set number
 set relativenumber
 set clipboard=unnamed
 set incsearch
