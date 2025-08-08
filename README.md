@@ -38,13 +38,31 @@ ln -s $PWD/ideavimrc $HOME/.ideavimrc
 https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTemplates
 ```
 
-## Todo
+## Todo 待研究
+
+### Plugin
 - [ ] Plug 'easymotion/vim-easymotion'
 - [ ] Plug 'bkad/CamelCaseMotion'
-- [ ] Plug 'tpope/vim-surround'
 - [ ] Plug 'tpope/vim-commentary'
 - [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'chrisbra/matchit'
+- [ ] Plug 'vim-airline/vim-airline-themes'
+- [ ] Plug 'scrooloose/nerdtree'
+- [ ] Plug 'ctrlpvim/ctrlp.vim'
+- [ ] Plug 'mattn/emmet-vim'
+- [ ] Plug 'tpope/vim-repeat'
+- [ ] Plug 'terryma/vim-multiple-cursors'
+- [ ] Plug 'chrisbra/matchit'
+- [ ] Plug 'tomtom/tcomment_vim'
+- [ ] Plug 'MarcWeber/vim-addon-mw-utils'
+- [ ] Plug 'tomtom/tlib_vim'
+- [ ] Plug 'garbas/vim-snipmate'
+- [ ] Plug 'honza/vim-snippets'
+- [ ] Plug 'majutsushi/tagbar'
+- [ ] Plug 'mileszs/ack.vim'
+- [ ] Plug 'airblade/vim-gitgutter'
+
+### Setting 
 - [ ] set backspace=indent,eol,start
 ```
   set nocompatible                      " not compatible with the old-fashion vi mode
@@ -144,33 +162,9 @@ set shell=/bin/sh
 " Plugins
 "--------------
 call plug#begin('~/.vim/plugged')
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
-  Plug 'scrooloose/nerdtree'
-  Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'mattn/emmet-vim'
-  Plug 'tpope/vim-surround'
-  Plug 'tpope/vim-repeat'
-  Plug 'terryma/vim-multiple-cursors'
-  Plug 'chrisbra/matchit'
+ 
 
-  " for general purpose development
-  Plug 'tomtom/tcomment_vim'
-  Plug 'MarcWeber/vim-addon-mw-utils'
-  Plug 'tomtom/tlib_vim'
-  Plug 'garbas/vim-snipmate'
-  Plug 'honza/vim-snippets'
-  Plug 'majutsushi/tagbar'
-  Plug 'mileszs/ack.vim'
-  Plug 'airblade/vim-gitgutter'
 
-  " for ruby/rails development
-  Plug 'vim-ruby/vim-ruby'
-  Plug 'tpope/vim-rails'
-  Plug 'thoughtbot/vim-rspec'
-
-  " for vue.js development
-  Plug 'leafOfTree/vim-vue-plugin'
 call plug#end()
 
 "--------------
