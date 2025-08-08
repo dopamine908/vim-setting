@@ -24,6 +24,8 @@ call plug#end()
 
 " 告訴 Vim 「不要模仿舊版 vi，請使用所有 Vim 增強功能。」
 set nocompatible
+" 啟用模式顯示
+set showmode
 set number
 set relativenumber
 " unnamed 主要是與 X11 的 PRIMARY 剪貼簿互動（滑鼠選取即複製）。 > 只在 Linux 環境下會有差異
