@@ -26,6 +26,8 @@ call plug#end()
 set nocompatible
 " 啟用模式顯示
 set showmode
+" 設定游標距離視窗邊緣 3 行時自動滾動
+set scrolloff=3
 set number
 set relativenumber
 " unnamed 主要是與 X11 的 PRIMARY 剪貼簿互動（滑鼠選取即複製）。 > 只在 Linux 環境下會有差異

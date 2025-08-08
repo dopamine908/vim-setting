@@ -45,7 +45,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 - [ ] Plug 'tpope/vim-commentary'
 - [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'chrisbra/matchit'
-- [ ] set scrolloff=0
 - [ ] set visualbell
 - [ ] set t_vb=
 - [ ] set ignorecase
