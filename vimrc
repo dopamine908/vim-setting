@@ -44,6 +44,8 @@ set wildmenu
 set matchpairs+=<:>
 " 設定終端機顏色數量為 256 色，以確保顏色顯示正常
 set t_Co=256
+" 當檔案在 Vim 外部被修改時，Vim 會自動偵測並重新載入
+set autoread
 syntax enable
 filetype on
 filetype indent on
