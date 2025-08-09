@@ -32,6 +32,12 @@ set title
 set titlestring=%F\ -\ Vim
 " 啟用模式顯示
 set showmode
+" 讓 Vim 始終顯示狀態列，無論你有幾個分割視窗
+set laststatus=2
+" 讓垂直分割視窗總是在右側開啟
+set splitright
+" 讓水平分割視窗總是在下方開啟
+set splitbelow
 " 設定游標距離視窗邊緣 3 行時自動滾動
 set scrolloff=3
 " 關閉自動跳到行首非空白字元的功能

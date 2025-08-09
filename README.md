@@ -73,10 +73,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-set laststatus=2
-set splitright                        " always open vertical split window in the right side
-set splitbelow                        " always open horizontal split window below
-set scrolloff=4                       " start scrolling when n lines away from margins
 set switchbuf=useopen
 set showtabline=2                     " always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
