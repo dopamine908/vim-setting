@@ -73,7 +73,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-  set undolevels=100
   set ruler                             " show the cursor position all the time
   set autoread                          " auto read when file is changed from outside
   set wrap
