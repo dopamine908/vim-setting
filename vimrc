@@ -40,6 +40,8 @@ set ignorecase
 set wildmenu
 " 將 <, > 加入配對字元清單(使用 % 可以互跳)
 set matchpairs+=<:>
+" 設定終端機顏色數量為 256 色，以確保顏色顯示正常
+set t_Co=256
 syntax enable
 filetype on
 filetype indent on

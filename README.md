@@ -72,11 +72,7 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 - [ ] Plug 'airblade/vim-gitgutter'
 
 ### Setting 
-- [ ] set backspace=indent,eol,start
 ```
-  set nocompatible                      " not compatible with the old-fashion vi mode
-  set backspace=2                       " allow backspacing over everything in insert nc >kkmode
-  set history=1000                      " keep 1000 lines of command line history
   set undolevels=100
   set ruler                             " show the cursor position all the time
   set autoread                          " auto read when file is changed from outside
@@ -108,19 +104,8 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
   set ttyfast                           " send more chars while redrawing
   set lazyredraw
 
-filetype on                           " enable filetype detection
-filetype indent on                    " enable filetype-specific indenting
-filetype plugin on                    " enable filetype-specific plugins
 
-syntax on                             " syntax highlight
-set hlsearch                          " search highlighting
-set incsearch                         " incremental search
-syntax enable
 set t_Co=256
-try
-colorscheme solarized_dark
-catch
-endtry
 
 set nobackup                          " no *~ backup files
 set noswapfile
@@ -167,39 +152,16 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " shell setting for RVM
 set shell=/bin/sh
-"--------------
-" Plugins
-"--------------
-call plug#begin('~/.vim/plugged')
- 
 
+set backspace=indent,eol,start
 
-call plug#end()
-
-"--------------
-" Settings
-"--------------
-set nocompatible
-set clipboard=unnamed
 set noswapfile
 set hidden
 set nobomb            " no BOM(Byte Order Mark)
 set mouse=a
 
-"--------------
-" Filetype and Encoding
-"--------------
-filetype on
-filetype indent on
-filetype plugin on
-
 " file encoding
 set encoding=utf-8
 scriptencoding utf-8
-
-"--------------
-" key mapping
-"--------------
-let mapleader = ","
 ```
 - [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理
