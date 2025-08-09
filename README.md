@@ -73,7 +73,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-set linebreak
 set nolist
 set hidden
 set linespace=0

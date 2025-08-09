@@ -32,6 +32,8 @@ set scrolloff=3
 set ruler
 " 設定文字超過螢幕寬度自動換行
 set wrap
+" 設定自動換行的顯示模式（單字不會被切斷）
+set linebreak
 set number
 set relativenumber
 " unnamed 主要是與 X11 的 PRIMARY 剪貼簿互動（滑鼠選取即複製）。 > 只在 Linux 環境下會有差異
