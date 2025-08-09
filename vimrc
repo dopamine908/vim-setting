@@ -45,6 +45,17 @@ filetype on
 filetype indent on
 filetype plugin on
 
+" --- Gruvbox 配色方案設定 ---
+" 載入配色方案
+try
+" 選擇深色模式
+set background=dark
+colorscheme gruvbox
+" 調整對比度
+let g:gruvbox_contrast_dark = 'hard'
+catch
+endtry
+
 "--------------------------------
 " Key Mapping
 "--------------------------------

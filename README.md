@@ -17,7 +17,16 @@ ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/ideavimrc $HOME/.ideavimrc
 ```
 
+#### color scheme
+如果 ```~/.vim/``` 中沒有 colors 則建立 colors 資料夾
+```
+mkdir -p ~/.vim/colors
+```
 
+下載 gruvbox.vim 到 ```~/.vim/colors``` 資料夾
+```
+curl -o ~/.vim/colors/gruvbox.vim https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim
+```
 ## 安裝套件
 
 使用 vim 開啟任意檔案後輸入指令
@@ -193,3 +202,4 @@ scriptencoding utf-8
 "--------------
 let mapleader = ","
 ```
+- [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理
