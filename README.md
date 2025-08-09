@@ -73,37 +73,30 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-  set wrap
-  set linebreak
-  set nolist
-  set hidden
-  set linespace=0
-  set cursorline
-  set nofoldenable
-  set number
-  set numberwidth=4
-  set title
-  set showmode
-  set nobomb                            " no BOM(Byte Order Mark)
-  set nostartofline
-  set laststatus=2
-  set clipboard+=unnamed
-  set splitright                        " always open vertical split window in the right side
-  set splitbelow                        " always open horizontal split window below
-  set scrolloff=4                       " start scrolling when n lines away from margins
-  set switchbuf=useopen
-  set showtabline=2                     " always show tab
-  set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
-  set wildmenu                          " make tab completion for files/buffers act like bash
-  set key=			                        " disable encryption
-  set synmaxcol=128
-  set viminfo=			                    " disable .viminfo file
-  set ttyfast                           " send more chars while redrawing
-  set lazyredraw
-
-
-set t_Co=256
-
+set linebreak
+set nolist
+set hidden
+set linespace=0
+set cursorline
+set nofoldenable
+set numberwidth=4
+set title
+set showmode
+set nobomb                            " no BOM(Byte Order Mark)
+set nostartofline
+set laststatus=2
+set splitright                        " always open vertical split window in the right side
+set splitbelow                        " always open horizontal split window below
+set scrolloff=4                       " start scrolling when n lines away from margins
+set switchbuf=useopen
+set showtabline=2                     " always show tab
+set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
+set wildmenu                          " make tab completion for files/buffers act like bash
+set key=			                        " disable encryption
+set synmaxcol=128
+set viminfo=			                    " disable .viminfo file
+set ttyfast                           " send more chars while redrawing
+set lazyredraw
 set nobackup                          " no *~ backup files
 set noswapfile
 set nowritebackup

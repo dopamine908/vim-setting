@@ -30,6 +30,8 @@ set showmode
 set scrolloff=3
 " 顯示游標所在位置資訊
 set ruler
+" 設定文字超過螢幕寬度自動換行
+set wrap
 set number
 set relativenumber
 " unnamed 主要是與 X11 的 PRIMARY 剪貼簿互動（滑鼠選取即複製）。 > 只在 Linux 環境下會有差異
