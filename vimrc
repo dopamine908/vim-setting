@@ -26,6 +26,10 @@ call plug#end()
 set nocompatible
 " 關閉特殊字元顯示
 set nolist
+" 讓 Vim 在終端機的視窗標題列顯示當前編輯的檔案名稱
+set title
+" 會讓標題列顯示完整的檔案路徑，並加上 ` - Vim`（{path_to_tile} - Vim）
+set titlestring=%F\ -\ Vim
 " 啟用模式顯示
 set showmode
 " 設定游標距離視窗邊緣 3 行時自動滾動
