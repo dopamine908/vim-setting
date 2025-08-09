@@ -73,14 +73,12 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-set nolist
 set hidden
 set linespace=0
 set cursorline
 set nofoldenable
 set numberwidth=4
 set title
-set showmode
 set nobomb                            " no BOM(Byte Order Mark)
 set nostartofline
 set laststatus=2

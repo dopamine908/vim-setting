@@ -24,6 +24,8 @@ call plug#end()
 
 " 告訴 Vim 「不要模仿舊版 vi，請使用所有 Vim 增強功能。」
 set nocompatible
+" 關閉特殊字元顯示
+set nolist
 " 啟用模式顯示
 set showmode
 " 設定游標距離視窗邊緣 3 行時自動滾動
