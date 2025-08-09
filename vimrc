@@ -52,6 +52,8 @@ set matchpairs+=<:>
 set t_Co=256
 " 當檔案在 Vim 外部被修改時，Vim 會自動偵測並重新載入
 set autoread
+" 啟用 hidden 模式（允許在不存檔的情況下切換到其他檔案）
+set hidden
 syntax enable
 filetype on
 filetype indent on
