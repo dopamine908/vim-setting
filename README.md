@@ -73,8 +73,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-set nobomb                            " no BOM(Byte Order Mark)
-set nostartofline
 set laststatus=2
 set splitright                        " always open vertical split window in the right side
 set splitbelow                        " always open horizontal split window below

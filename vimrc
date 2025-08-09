@@ -34,6 +34,8 @@ set titlestring=%F\ -\ Vim
 set showmode
 " 設定游標距離視窗邊緣 3 行時自動滾動
 set scrolloff=3
+" 關閉自動跳到行首非空白字元的功能
+set nostartofline
 " 顯示游標所在位置資訊
 set ruler
 " 設定文字超過螢幕寬度自動換行
