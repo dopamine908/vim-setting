@@ -38,6 +38,8 @@ set wrap
 set linebreak
 set number
 set relativenumber
+" 啟用 cursorline 功能
+set cursorline
 " unnamed 主要是與 X11 的 PRIMARY 剪貼簿互動（滑鼠選取即複製）。 > 只在 Linux 環境下會有差異
 set clipboard+=unnamed
 " unnamedplus 主要是與 X11 的 CLIPBOARD 剪貼簿互動（Ctrl+C 和 Ctrl+V 所使用的剪貼簿）。> 只在 Linux 環境下會有差異

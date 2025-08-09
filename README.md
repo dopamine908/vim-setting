@@ -73,11 +73,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-
-
-
-set linespace=0
-set cursorline
 set nofoldenable
 set numberwidth=4
 set title
