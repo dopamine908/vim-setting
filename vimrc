@@ -66,6 +66,8 @@ set matchpairs+=<:>
 set t_Co=256
 " 設定語法高亮的最大列數為 256 （當一行超過 256 個字元時，Vim 會停止對其進行語法高亮，以提高效能
 set synmaxcol=256
+" 啟用 lazyredraw （在執行巨集或複雜操作時，延後畫面重繪，直到操作完成後再更新）
+set lazyredraw
 " 當檔案在 Vim 外部被修改時，Vim 會自動偵測並重新載入
 set autoread
 " 啟用 hidden 模式（允許在不存檔的情況下切換到其他檔案）

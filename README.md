@@ -74,8 +74,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Setting 
 ```
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
-set synmaxcol=128
-set ttyfast                           " send more chars while redrawing
 set lazyredraw
 set nobackup                          " no *~ backup files
 set noswapfile
