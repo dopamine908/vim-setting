@@ -70,16 +70,7 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 - [ ] Plug 'majutsushi/tagbar'
 - [ ] Plug 'mileszs/ack.vim'
 - [ ] Plug 'airblade/vim-gitgutter'
+- [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理(看起來是有對應的 color scheme 沒有安裝所以無法正常執行)
 
 ### Setting 
-```
-set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
 
-set backspace=indent,eol,start
-
-" remove tailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
-
-
-```
-- [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理

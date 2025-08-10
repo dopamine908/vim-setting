@@ -60,6 +60,8 @@ set incsearch
 set ignorecase
 " 在 command 模式使用 tab 自動補齊的時候會有預覽區域可以看
 set wildmenu
+" 在 command 模式使用 tab 自動補齊的模式設定
+set wildmode=longest,full
 " 將 <, > 加入配對字元清單(使用 % 可以互跳)
 set matchpairs+=<:>
 " 設定終端機顏色數量為 256 色，以確保顏色顯示正常
