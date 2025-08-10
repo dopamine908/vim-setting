@@ -73,33 +73,20 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 
 ### Setting 
 ```
-set switchbuf=useopen
-set showtabline=2                     " always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
-set wildmenu                          " make tab completion for files/buffers act like bash
-set key=			                        " disable encryption
 set synmaxcol=128
-set viminfo=			                    " disable .viminfo file
 set ttyfast                           " send more chars while redrawing
 set lazyredraw
 set nobackup                          " no *~ backup files
 set noswapfile
 set nowritebackup
 set copyindent                        " copy the previous indentation on autoindenting
-set ignorecase                        " ignore case when searching
-set smartcase
 set smarttab                          " insert tabs on the start of a line according to
 set expandtab                         " replace <TAB> with spaces
 set softtabstop=2
 set shiftwidth=2
 set tabstop=2
 set shortmess=Ia                      " remove splash wording
-
-" disable sound on errors
-set visualbell
-set noerrorbells
-set t_vb=
-set tm=500
 
 " file encoding
 set encoding=utf-8
