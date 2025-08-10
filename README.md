@@ -74,11 +74,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Setting 
 ```
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
-set lazyredraw
-set nobackup                          " no *~ backup files
-set noswapfile
-set nowritebackup
-set copyindent                        " copy the previous indentation on autoindenting
 set smarttab                          " insert tabs on the start of a line according to
 set expandtab                         " replace <TAB> with spaces
 set softtabstop=2

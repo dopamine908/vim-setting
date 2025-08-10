@@ -72,6 +72,10 @@ set lazyredraw
 set autoread
 " 啟用 hidden 模式（允許在不存檔的情況下切換到其他檔案）
 " set hidden
+" 啟用自動縮排
+set autoindent
+" 啟用複製縮排（當 `autoindent` 啟用時，這個選項會讓 Vim 複製上一行的縮排）
+set copyindent
 syntax enable
 filetype on
 filetype indent on
