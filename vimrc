@@ -76,6 +76,8 @@ set autoread
 set autoindent
 " 啟用複製縮排（當 `autoindent` 啟用時，這個選項會讓 Vim 複製上一行的縮排）
 set copyindent
+" 在 Normal、Visual 和 Insert 模式下啟用滑鼠，支援移動游標、選取文字和捲動
+set mouse=a
 " 設定 Vim 內部使用的字元編碼為 UTF-8
 set encoding=utf-8
 " 將目前檔案、Vim 內部和終端機的編碼都設為 UTF-8

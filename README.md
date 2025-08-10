@@ -77,12 +77,6 @@ set wildmode=longest,list             " use emacs-style tab completion when sele
 
 set backspace=indent,eol,start
 
-" file encoding
-set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1,euc-jp,utf-16le,latin1
-set fenc=utf-8 enc=utf-8 tenc=utf-8
-scriptencoding utf-8
-
 " cursorline switched while focus is switched to another split window
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
@@ -93,14 +87,5 @@ autocmd BufWritePre * :%s/\s\+$//e
 " shell setting for RVM
 set shell=/bin/sh
 
-
-set noswapfile
-set hidden
-set nobomb            " no BOM(Byte Order Mark)
-set mouse=a
-
-" file encoding
-set encoding=utf-8
-scriptencoding utf-8
 ```
 - [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理
