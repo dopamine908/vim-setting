@@ -77,15 +77,9 @@ set wildmode=longest,list             " use emacs-style tab completion when sele
 
 set backspace=indent,eol,start
 
-" cursorline switched while focus is switched to another split window
-autocmd WinEnter * setlocal cursorline
-autocmd WinLeave * setlocal nocursorline
-
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
-" shell setting for RVM
-set shell=/bin/sh
 
 ```
 - [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理
