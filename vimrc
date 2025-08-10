@@ -76,6 +76,12 @@ set autoread
 set autoindent
 " 啟用複製縮排（當 `autoindent` 啟用時，這個選項會讓 Vim 複製上一行的縮排）
 set copyindent
+" 設定 Vim 內部使用的字元編碼為 UTF-8
+set encoding=utf-8
+" 將目前檔案、Vim 內部和終端機的編碼都設為 UTF-8
+set fenc=utf-8 enc=utf-8 tenc=utf-8
+" 設定 Vimscript 檔案本身的編碼
+scriptencoding utf-8
 syntax enable
 filetype on
 filetype indent on

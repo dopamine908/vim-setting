@@ -74,29 +74,14 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Setting 
 ```
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
-set smarttab                          " insert tabs on the start of a line according to
-set expandtab                         " replace <TAB> with spaces
-set softtabstop=2
-set shiftwidth=2
-set tabstop=2
-set shortmess=Ia                      " remove splash wording
+
+set backspace=indent,eol,start
 
 " file encoding
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1,euc-jp,utf-16le,latin1
 set fenc=utf-8 enc=utf-8 tenc=utf-8
 scriptencoding utf-8
-
-" ignores
-set wildignore+=*.o,*.obj,*.pyc                " output objects
-set wildignore+=*.png,*.jpg,*.gif,*.ico        " image format
-set wildignore+=*.swf,*.fla                    " image format
-set wildignore+=*.mp3,*.mp4,*.avi,*.mkv        " media format
-set wildignore+=*.git*,*.hg*,*.svn*            " version control system
-set wildignore+=*sass-cache*
-set wildignore+=*.DS_Store
-set wildignore+=log/**
-set wildignore+=tmp/**
 
 " cursorline switched while focus is switched to another split window
 autocmd WinEnter * setlocal cursorline
@@ -108,7 +93,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " shell setting for RVM
 set shell=/bin/sh
 
-set backspace=indent,eol,start
 
 set noswapfile
 set hidden
