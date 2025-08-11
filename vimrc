@@ -16,6 +16,10 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+
+"Plug 'easymotion/vim-easymotion'
+"Plug 'justinmk/vim-sneak'
+
 call plug#end()
 
 "--------------------------------
@@ -153,3 +157,19 @@ noremap <leader>E :Files<CR>
 noremap <leader>e :History<CR>
 " 搜尋 tab
 noremap <leader>w :Windows<CR>
+
+
+
+"let g:EasyMotion_do_mapping = 0 " Disable default mappings
+
+" Jump to anywhere you want with minimal keystrokes, with just one key binding.
+" `s{char}{label}`
+"noremap f <Plug>(easymotion-overwin-f)
+" or
+" `s{char}{char}{label}`
+" Need one more keystroke, but on average, it may be more comfortable.
+"noremap F <Plug>(easymotion-overwin-f2)
+"
+"noremap f <Plug>(easymotion-sn)
+" sneaker
+"let g:sneak#label = 1

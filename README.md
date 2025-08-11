@@ -50,15 +50,11 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ## Todo 待研究
 
 ### Plugin
-- [ ] Plug 'easymotion/vim-easymotion'
-- [ ] Plug 'bkad/CamelCaseMotion'
+
+#### 待研究
 - [ ] Plug 'tpope/vim-commentary'
 - [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'chrisbra/matchit'
-- [ ] Plug 'vim-airline/vim-airline-themes'
-- [ ] Plug 'scrooloose/nerdtree'
-- [ ] Plug 'ctrlpvim/ctrlp.vim'
-- [ ] Plug 'mattn/emmet-vim'
 - [ ] Plug 'tpope/vim-repeat'
 - [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'chrisbra/matchit'
@@ -69,7 +65,19 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 - [ ] Plug 'honza/vim-snippets'
 - [ ] Plug 'majutsushi/tagbar'
 - [ ] Plug 'mileszs/ack.vim'
+
+#### 還不太需要但可以存著有需要再裝
+- [ ] Plug 'mattn/emmet-vim'
+
+#### 延後研究
+- [ ] Plug 'bkad/CamelCaseMotion'
+- preservim/nerdcommenter
+- [ ] Plug 'easymotion/vim-easymotion'
+- justinmk/vim-sneak
 - [ ] Plug 'airblade/vim-gitgutter'
+
+#### 有問題需要修正 or 替換
+- [ ] Plug 'vim-airline/vim-airline-themes'
 - [ ] itchyny/lightline.vim 在其他終端機會有錯誤出現，晚點處理(看起來是有對應的 color scheme 沒有安裝所以無法正常執行)
 
 ### Setting 
