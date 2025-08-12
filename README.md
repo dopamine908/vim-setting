@@ -52,19 +52,14 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Plugin
 
 #### 待研究
-- [ ] Plug 'tpope/vim-commentary'
-- [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'chrisbra/matchit'
-- [ ] Plug 'tpope/vim-repeat'
-- [ ] Plug 'terryma/vim-multiple-cursors'
-- [ ] Plug 'chrisbra/matchit'
-- [ ] Plug 'tomtom/tcomment_vim'
-- [ ] Plug 'MarcWeber/vim-addon-mw-utils'
-- [ ] Plug 'tomtom/tlib_vim'
 - [ ] Plug 'garbas/vim-snipmate'
 - [ ] Plug 'honza/vim-snippets'
+- [ ] Plug 'tpope/vim-commentary'
+- [ ] Plug 'terryma/vim-multiple-cursors'
+- [ ] Plug 'tpope/vim-repeat'
+- [ ] Plug 'tomtom/tcomment_vim'
 - [ ] Plug 'majutsushi/tagbar'
-- [ ] Plug 'mileszs/ack.vim'
 
 #### 還不太需要但可以存著有需要再裝
 - [ ] Plug 'mattn/emmet-vim'
@@ -72,9 +67,8 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 #### 延後研究
 - [ ] Plug 'bkad/CamelCaseMotion'
 - preservim/nerdcommenter
-- [ ] Plug 'easymotion/vim-easymotion'
-- justinmk/vim-sneak
 - [ ] Plug 'airblade/vim-gitgutter'
+- [ ] Plug 'mileszs/ack.vim'
 
 #### 有問題需要修正 or 替換
 - [ ] Plug 'vim-airline/vim-airline-themes'
