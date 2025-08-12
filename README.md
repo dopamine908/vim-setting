@@ -52,14 +52,12 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Plugin
 
 #### 待研究
-- [ ] Plug 'chrisbra/matchit'
 - [ ] Plug 'garbas/vim-snipmate'
 - [ ] Plug 'honza/vim-snippets'
 - [ ] Plug 'tpope/vim-commentary'
-- [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'tpope/vim-repeat'
+- [ ] Plug 'terryma/vim-multiple-cursors'
 - [ ] Plug 'tomtom/tcomment_vim'
-- [ ] Plug 'majutsushi/tagbar'
 
 #### 還不太需要但可以存著有需要再裝
 - [ ] Plug 'mattn/emmet-vim'

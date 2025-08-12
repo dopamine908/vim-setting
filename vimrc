@@ -22,6 +22,9 @@ Plug 'easymotion/vim-easymotion'
 " tagbar
 Plug 'majutsushi/tagbar' 
 
+" matchit
+Plug 'chrisbra/matchit'
+
 call plug#end()
 
 "--------------------------------
