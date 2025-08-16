@@ -27,7 +27,9 @@ Plug 'chrisbra/matchit'
 
 " tcomment_vim
 Plug 'tomtom/tcomment_vim'
-" Plug 'tpope/vim-repeat'
+
+" vim-repeat
+Plug 'tpope/vim-repeat'
 call plug#end()
 
 "--------------------------------
