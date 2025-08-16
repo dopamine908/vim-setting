@@ -25,6 +25,9 @@ Plug 'majutsushi/tagbar'
 " matchit
 Plug 'chrisbra/matchit'
 
+" tcomment_vim
+Plug 'tomtom/tcomment_vim'
+" Plug 'tpope/vim-repeat'
 call plug#end()
 
 "--------------------------------
@@ -178,3 +181,14 @@ noremap <leader>F <Plug>(easymotion-sn)
 "
 " 開關 tagbar 側邊欄
 noremap <leader>st :TagbarToggle<CR>
+
+
+"--- tomtom/tcomment_vim ---
+"
+" 關閉所有預設快捷鍵
+let g:tcomment_maps = ''
+
+" 註解多行：選取後按 <Leader>c
+noremap <leader>c :TComment<CR>
+" 區塊註解多行：選取後按 <Leader>C
+noremap <leader>C :TCommentBlock<CR>

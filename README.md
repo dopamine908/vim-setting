@@ -52,9 +52,6 @@ https://raw.githubusercontent.com/dopamine908/vim-setting/main/php.postfixTempla
 ### Plugin
 
 #### 待研究
-- [ ] Plug 'tpope/vim-commentary'
-- [ ] Plug 'tomtom/tcomment_vim'
-- [ ] Plug 'tpope/vim-repeat'
 - [ ] Plug 'terryma/vim-multiple-cursors'
 
 ##### 程式碼片段、自動補齊
